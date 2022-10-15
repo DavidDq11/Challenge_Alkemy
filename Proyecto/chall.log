@@ -1,0 +1,26 @@
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): docs.google.com:443
+DEBUG:urllib3.connectionpool:https://docs.google.com:443 "GET /spreadsheets/d/1PS2_yAvNVEuSY0gI8Nky73TQMcx_G1i18lm--jOGfAA/export?format=csv HTTP/1.1" 307 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): doc-04-8o-sheets.googleusercontent.com:443
+DEBUG:urllib3.connectionpool:https://doc-04-8o-sheets.googleusercontent.com:443 "GET /export/3sm34aofsvmt5ehut1q6bddr3o/ucj1k6km4o46dj1j57n2c25nbk/1665864185000/116132178638002247942/*/1PS2_yAvNVEuSY0gI8Nky73TQMcx_G1i18lm--jOGfAA?format=csv HTTP/1.1" 200 None
+DEBUG:root:15 Oct 2022
+DEBUG:root:museos-15-10-2022
+DEBUG:root:Museos\2022-10
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): docs.google.com:443
+DEBUG:urllib3.connectionpool:https://docs.google.com:443 "GET /spreadsheets/d/1o8QeMOKWm4VeZ9VecgnL8BWaOlX5kdCDkXoAph37sQM/export?format=csv HTTP/1.1" 307 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): doc-0k-8o-sheets.googleusercontent.com:443
+DEBUG:urllib3.connectionpool:https://doc-0k-8o-sheets.googleusercontent.com:443 "GET /export/3sm34aofsvmt5ehut1q6bddr3o/3u5fjniu6ks2t246g9qquup29k/1665864190000/116132178638002247942/*/1o8QeMOKWm4VeZ9VecgnL8BWaOlX5kdCDkXoAph37sQM?format=csv HTTP/1.1" 200 None
+DEBUG:root:15 Oct 2022
+DEBUG:root:Cines-15-10-2022
+DEBUG:root:Cines\2022-10
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): docs.google.com:443
+DEBUG:urllib3.connectionpool:https://docs.google.com:443 "GET /spreadsheets/d/1udwn61l_FZsFsEuU8CMVkvU2SpwPW3Krt1OML3cYMYk/export?format=csv HTTP/1.1" 307 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): doc-0c-8o-sheets.googleusercontent.com:443
+DEBUG:urllib3.connectionpool:https://doc-0c-8o-sheets.googleusercontent.com:443 "GET /export/3sm34aofsvmt5ehut1q6bddr3o/f40f5gunqohitml909bv4c2kcs/1665864190000/116132178638002247942/*/1udwn61l_FZsFsEuU8CMVkvU2SpwPW3Krt1OML3cYMYk?format=csv HTTP/1.1" 200 None
+DEBUG:root:15 Oct 2022
+DEBUG:root:Bibliotecas-15-10-2022
+DEBUG:root:Bibliotecas\2022-10
+DEBUG:root:15 Oct 2022
+DEBUG:root:2022
+DEBUG:root:2022-10
+DEBUG:root:museos-15-10-2022
+DEBUG:root:Museos\2022-10/museos-15-10-2022/Museos.csv
