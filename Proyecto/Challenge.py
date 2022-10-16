@@ -15,7 +15,7 @@ logging.basicConfig(filename='chall.log', level=logging.DEBUG)
 URL = "https://docs.google.com/spreadsheets/d/1PS2_yAvNVEuSY0gI8Nky73TQMcx_G1i18lm--jOGfAA"+"/export?format=csv"
 respuesta = requests.get(URL)
 
-#Obtener fecha
+#Obtener fecha y ubicacion de carpeta
 fecha=respuesta.headers['Date']
 fecha2= fecha[5:16]
 logging.debug(fecha2)
@@ -204,3 +204,20 @@ logging.debug ("El conteo de registros por la fuente de cines es:", cant_cines_f
 
 
 result.iloc[4]
+
+#Cantidad de registros por provincia y categoría:
+
+a= result[(result.Categoria=='Espacios de Exhibición Patrimonial')]
+a =a.groupby(['Provincia']).agg({'Provincia' : 'count'})
+
+b = result[(result.Categoria=='Bibliotecas Populares')]
+b = b.groupby(['Provincia']).agg({'Provincia' : 'count'})
+
+
+
+c = result[(result.Categoria=='Salas de cine')]
+c = c.groupby(['Provincia']).agg({'Provincia' : 'count'})
+
+logging.debug  ('El conteo de registros por provincia de los museos es:\n', a)
+logging.debug ('El conteo de registros por provincia de las bibliotecas es:\n', b)
+logging.debug ('El conteo de registros por provincia de los cines es:\n', c)
